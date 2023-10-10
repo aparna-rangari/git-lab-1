@@ -6,7 +6,12 @@ parameters {
     stages {
         stage('Hello') {
             steps {
-                echo 'good by'
+                echo "Hello ${params.PERSON}"
+            }  
+          }
+             stage('bye') {
+                   steps {
+              echo 'good by'
             }
         }
     }
