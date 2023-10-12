@@ -23,7 +23,7 @@ pipeline {
                  sh 
                  touch 11.txt
                  pwd
-                 ***
+                 
                  echo "Biography: ${params.BIOGRAPHY}"
 
                 echo "Toggle: ${params.TOGGLE}"
